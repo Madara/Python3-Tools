@@ -7,6 +7,7 @@
 git clone https://github.com/Madara/Python-3-Tools.git
 ```
 _or_
+
 **Download a .zip file of the repository and extract it where you would like to keep the files. **
 
 ## Usage ##
