@@ -5,9 +5,9 @@ import pexpect, subprocess
 PROMPT = ["# ", ">>> ", "> ", "\$ "]
 
 def send_command(child, command):
-	child.sendline(command)                                                            
-        child.expect(PROMPT)
-        print(f"\n{child.before.decode()}\n")
+	child.sendline(command)
+	child.expect(PROMPT)
+	print(f"\n{child.before.decode()}\n")
 
 def connect(user, host, password):
         ssh_newkey = "Are you sure you want to continue connecting (yes/no)?"
@@ -52,4 +52,3 @@ elif mode == "N":
 else:
         print("Error")
         exit(0)
-
