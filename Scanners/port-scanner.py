@@ -26,8 +26,8 @@ if __name__ == '__main__':
 
     if len(sys.argv) < 4:
         print('\nHelp: \n')
-        print('Usage: ./portscanner.py <IP address> <start port> <end port>')
-        print('Example: ./portscanner.py 192.168.1.10 1 65535\n')
+        print('Usage: ./port-scanner.py <IP address> <start port> <end port>')
+        print('Example: ./port-scanner.py 31.146.68.230 1 65535\n')
     else:
         network   = sys.argv[1]
         startPort = int(sys.argv[2])
