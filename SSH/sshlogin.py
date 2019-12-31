@@ -16,7 +16,7 @@ def connect(user, host, password):
         ret = child.expect([pexpect.TIMEOUT, ssh_newkey, "[P|p]assword: "])
         if (ret == 0):
                 print("[X] Error Connecting... Please Try Again!")
-        elif (ret -- 1):
+        elif (ret == 1):
                 child.sendline("yes")
                 ret = child.expect([pexpect.TIMEOUT, "[P|p]assword: "])
                 if (ret == 0):
