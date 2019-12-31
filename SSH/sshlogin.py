@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import pexpect, subprocess
+from termcolor import colored
 
 PROMPT = ["# ", ">>> ", "> ", "\$ "]
 
@@ -41,10 +42,10 @@ def attack():
                 password = password.strip("\n")
                 try:
                         child = connect(user, host, password)
-                        print(f"[+] Password Found: {password}")
+                        print(colored(f"[+] Password Found: {password}", "green"))
                         send_command(child, "whoami")
                 except:
-                        print(f"[x] Password Incorrect: {password}")
+                        print(colored(f"[x] Password Incorrect: {password}", "red"))
 if mode == "Y": 
         login()
 elif mode == "N":
