@@ -6,7 +6,7 @@
 ```bash
 git clone https://github.com/Madara/Python-3-Tools.git
 ```
-                      or
+or
 
 **Download a .zip file of the repository and extract it where you would like to keep the files**
 
