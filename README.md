@@ -3,9 +3,8 @@
 A Collection of Custom Security Tools Made by Me in Python 3!
 
 # Contents
-
-* Scrapers
-- Port Scanner
+ - Scrapers
+  - Port Scanner
 
 ## To Do
 
