@@ -21,5 +21,5 @@ chmod +x portscanner.py
 Or if you are on Windows:
 ```bash
 cd C:\Users\Path\To\Directory
-python3 portscanner.py <Target IP address> <start port> <end port>
+python3 port-scanner.py <Target IP address> <start port> <end port>
 ```
