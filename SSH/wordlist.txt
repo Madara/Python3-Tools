@@ -1,0 +1,6 @@
+root
+toor
+raspberry
+password
+P@$$w0rd
+msfadmin
