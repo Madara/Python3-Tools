@@ -8,7 +8,7 @@ A Collection of Custom Security Tools Made by Me in Python 3!
 
 ## To Do ## 
 
-1. Code More!
+* Code More!
 
 ## Contributing ## 
 
