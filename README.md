@@ -11,8 +11,8 @@ A Collection of Custom Security Tools Made by Me in Python 3!
 
 ## To Do ## 
 
-[ ] Add Multiprocessing into both FTP and SSH Login Scripts
-[ ] Add Subnet Scan into port-scanner.py Script
+[checkbox:unchecked] Add Multiprocessing into both FTP and SSH Login Scripts
+[checkbox:unchecked] Add Subnet Scan into port-scanner.py Script
 
 ## Contributing ## 
 
