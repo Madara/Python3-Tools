@@ -1,5 +1,3 @@
-# CREDIT: https://peguta.com/articles/common-used-passwords
-
 oracle:oracle
 root:root
 root:abc123
