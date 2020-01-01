@@ -1,5 +1,6 @@
 # SSH Login Tool #
 - - - -
+I strongly recommend using another wordlist, the one provided is not strong enough.
 
 ## Installation ##
 
