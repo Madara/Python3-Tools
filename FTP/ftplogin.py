@@ -33,7 +33,7 @@ def attack(hostname, passwordfile):
                         pass
 
 host = input("Target IPv4: ")
-mode = input("Do you know username and password? [Y/N]").upper()
+mode = input("Do you know the username and password? [Y/N]: ").upper()
 if mode == "Y":
         user - input("Target User: ")
         passw = input("Target's Password: ")
