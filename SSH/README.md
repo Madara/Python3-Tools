@@ -1,4 +1,4 @@
-# SHSH Login Tool #
+# SSH Login Tool #
 - - - -
 
 ## Installation ##
