@@ -7,11 +7,11 @@ def login(hostname, username, password):
         try:
                 ftp = ftplib.FTP(hostname)
                 ftp.login(user=username, passwd=password)
-                print(f"[+] {hostname} FTP Anonymous Logon Succeeded.")
+                print(f"[+] {hostname} FTP Logon Successful.")
                 ftp.quit()
                 return True
         except ftplib.all_errors as e:
-                print(f"[-] {hostname} FTP Anonymous Logon Failed.")
+                print(f"[-] {hostname} FTP Logon Failed.")
         return False
 
 def attack(hostname, passwordfile):
