@@ -9,6 +9,9 @@ A Collection of Custom Security Tools Made by Me in Python 3!
 > SSH
 >> SSH Login/Dictionary Attacker
 
+> FTP
+>> FTP Login/Dictionary Attacker
+
 ## TODO ##
 * Add Multiprocessing into both FTP and SSH Login Scripts
 * Add Subnet Scan into port-scanner.py Script
