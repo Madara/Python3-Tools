@@ -13,6 +13,7 @@ A Collection of Custom Security Tools Made by Me in Python 3!
 >> FTP Login/Dictionary Attacker
 
 ## TODO ##
+* Fix Bugs in Twitter Username Checker
 * Add Multiprocessing into both FTP and SSH Login Scripts
 * Add Subnet Scan into port-scanner.py Script
 
