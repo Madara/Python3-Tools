@@ -1,6 +1,6 @@
 # Twitter Username Checker
 
-A Python Tool to Chec kthe Availablility of Twitter Usernames
+A Python Tool to Check the Availablility of Twitter Usernames
 
 ## Installation
 
