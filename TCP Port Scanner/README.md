@@ -4,7 +4,7 @@
 ## Installation ##
 
 ```bash
-git clone https://github.com/Madara/Python-3-Tools.git
+git clone https://github.com/Poodle/Python-3-Tools.git
 ```
 or
 
